@@ -25,7 +25,7 @@ h3 {
     font-size: 30px;
 }
 .top-padding {
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .half-width {
     width: 50%;
@@ -57,7 +57,7 @@ h3 {
     background-size: 100%;
     margin: 50px 0px;
 }
-#about-area h1, #recipe-area h2 {
+#about-area h1, #recipe-area h2, #about-me p {
     color: #707070;
 }
 #about-img {
@@ -102,4 +102,7 @@ footer {
 }
 footer h2 {
     color: #5B5B5B;
+}
+#about-me p {
+    padding-right: 20%;
 }

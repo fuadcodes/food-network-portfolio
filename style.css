@@ -5,8 +5,11 @@ body {
 .flexible-container {
     display: flex;
 }
-#header-area, #recipe-area, #social-stats-area {
+#header-area, #recipe-area {
     margin: 50px 100px;
+}
+#social-stats-area {
+    margin: 100px 100px;
 }
 h1 {
     font-size: 50px;
@@ -70,7 +73,8 @@ h3 {
     margin-right: 20%;
 }
 .recipe-item {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2%;
     width: 25%;
     border-radius: 20px;
